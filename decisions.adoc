@@ -1,0 +1,3286 @@
+////
+Purpose
+-------
+Create a record for each significant architectural decision made throughout the course of the engagement.
+
+Hint: "Significant" is subjective, but a good rule of thumb is to create a record for any decision that is not obvious or trivial.
+
+Example
+--------
+[id=ADR-42,title='The answer to life the universe and everything']
+[cols="1h,3a"]
+|===
+| ID
+| ADR-42
+| Title
+| The answer to life the universe and everything
+| Status
+| ACCEPTED
+| Subject Area(s)
+| Life, the Universe, and Everything
+| Question
+| What is the answer to life the universe and everything?
+| Issue or Problem
+| The answer to life the universe and everything is not known.
+| Assumptions
+| The answer to life the universe and everything is knowable.
+| Alternatives
+| 1. 42
+| 2. 43
+| 3. 41
+| Decision
+| 42
+| Justification
+| The answer to life the universe and everything is 42 per Deep Thought.
+| Agreeing Parties
+| [cols="1,1", options="header"]
+! Person
+! Representing
+! Deep Thought
+! The computer designed to calculate the answer to life the universe and everything.
+!===
+| Related Policies
+| * <<POLICY-42>>
+| Related Principles
+| * <<PRINCIPLE-42>>
+| Related Decisions
+| * <<ADR-41>>
+| * <<ADR-43>>
+|===
+
+////
+
+[id="decisions_{context}"]
+= Decisions
+Architectural decisions made throughout the course of the engagement with information on the investigated alternatives and justification for the decisions made.
+
+// copy this template for each decision
+// update the ID to equal the ID and the title to equal the title, useful for linking to this section
+[id=ADR-001,title='Use GitHub as information/code repository']
+[cols="1h,3a"]
+|===
+
+| ID
+| ADR-001
+// A unique code that unambiguously identifies the decision; for example: “ADR-42.”
+
+| Title
+| Use GitHub as information/code repository
+
+| Status
+| PROPOSED
+// Used to provide information about the current state of the decision.
+// Possible states include (but are not limited to) the following:
+// - PROPOSED: A suggested or newly introduced decision
+// - REJECTED: A decision that has been declined or not accepted
+// - ACCEPTED: A decision that has been collectively agreed upon
+// - DEPRECATED: A decision that may still be used, but has become less relevant or outdated
+// - SUPERSEDED BY [ADR-0043](0043-example.md): A decision that has been replaced by a newer, more relevant or effective decision
+
+| Subject Area(s)
+| #TODO subject areas, can think of this like hashtags#
+
+| Question
+| #TODO State the to-be decision as a question#
+//HINT: if something is more of a organizational mandate or standard, such as, "must conform to NIST 800-53", then use an Architectural Policy or Principle instead. But if there is a decision to be made between alternatives for HOW to conform to NIST 800-53 then you would create an ADR.
+
+| Issue or Problem
+| #TODO Context for why the architectural question is being asked.#
+
+| Assumptions
+| #TODO What is believed to be true about the context of the problem, constraints on the solution, and so on.#
+
+| Alternatives
+| #TODO An enumerated list of alternatives and explanations.#
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO  The decision taken. This should be one of the named Alternatives; for example: “Alternative 2 is chosen.”#
+
+| Justification
+| #TODO Why the decision was made#
+//HINT: list the policies or principles that affected the decision.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO Agreeing person name#
+! #TODO Team or group that person is representing and agreeing on behalf of, ex security, operations#
+
+! #TODO Agreeing person name#
+! #TODO Team or group that person is representing and agreeing on behalf of, ex security, operations#
+!===
+
+| Related Policies
+| * #TODO list links to policies that this record is related to in some way and the way in which,
+they are related. EX: policy affected decision in some way.#
+//HINT: syntax for inline link is <<POLICY-?>>
+
+| Related Principles
+| * #TODO list links to policies that this record is related to in some way and the way in which,
+they are related. EX: principle affected decision in some way.#
+//HINT: syntax for inline link is <<PRINCIPLE-?>>
+
+| Related Decisions
+| * #TODO list links to policies that this record is related to in some way and the way in which,
+they are related. EX: other decision limited options for this decision#
+//HINT: syntax for inline link is <<ADR-?>>
+
+|===
+
+// copy this template for each decision
+// update the ID to equal the ID and the title to equal the title, useful for linking to this section
+[id=ADR-???,title='#TODO Title#'']
+[cols="1h,3a"]
+|===
+
+| ID
+| ADR-#TODO unique number#
+// A unique code that unambiguously identifies the decision; for example: “ADR-42.”
+
+| Title
+| #TODO a title for this decision record#
+
+| Status
+| #TODO Set or update the decision's status#
+// Used to provide information about the current state of the decision.
+// Possible states include (but are not limited to) the following:
+// - PROPOSED: A suggested or newly introduced decision
+// - REJECTED: A decision that has been declined or not accepted
+// - ACCEPTED: A decision that has been collectively agreed upon
+// - DEPRECATED: A decision that may still be used, but has become less relevant or outdated
+// - SUPERSEDED BY [ADR-0043](0043-example.md): A decision that has been replaced by a newer, more relevant or effective decision
+
+| Subject Area(s)
+| #TODO subject areas, can think of this like hashtags#
+
+| Question
+| #TODO State the to-be decision as a question#
+//HINT: if something is more of a organizational mandate or standard, such as, "must conform to NIST 800-53", then use an Architectural Policy or Principle instead. But if there is a decision to be made between alternatives for HOW to conform to NIST 800-53 then you would create an ADR.
+
+| Issue or Problem
+| #TODO Context for why the architectural question is being asked.#
+
+| Assumptions
+| #TODO What is believed to be true about the context of the problem, constraints on the solution, and so on.#
+
+| Alternatives
+| #TODO An enumerated list of alternatives and explanations.#
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO  The decision taken. This should be one of the named Alternatives; for example: “Alternative 2 is chosen.”#
+
+| Justification
+| #TODO Why the decision was made#
+//HINT: list the policies or principles that affected the decision.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO Agreeing person name#
+! #TODO Team or group that person is representing and agreeing on behalf of, ex security, operations#
+
+! #TODO Agreeing person name#
+! #TODO Team or group that person is representing and agreeing on behalf of, ex security, operations#
+!===
+
+| Related Policies
+| * #TODO list links to policies that this record is related to in some way and the way in which,
+they are related. EX: policy affected decision in some way.#
+//HINT: syntax for inline link is <<POLICY-?>>
+
+| Related Principles
+| * #TODO list links to policies that this record is related to in some way and the way in which,
+they are related. EX: principle affected decision in some way.#
+//HINT: syntax for inline link is <<PRINCIPLE-?>>
+
+| Related Decisions
+| * #TODO list links to policies that this record is related to in some way and the way in which,
+they are related. EX: other decision limited options for this decision#
+//HINT: syntax for inline link is <<ADR-?>>
+
+|===
+
+---
+
+== AI Accelerator
+
+=== RHOAI Product installation
+
+//copy this template for each decision
+.RHOAI instances
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| RHOAI instances and purposes.
+
+| Architectural Question
+| How many RHOAI instances will be installed ? What will be the main objective of each RHOAI instance?
+// State the to-be decision as a question
+
+| Issue or Problem
+| {Customer} must determine the number of RHOAI instances planned for this engagement and their primary purpose.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * One RHOAI instance for production models + one RHOAI instance for non-production models and models training + one sandbox RHOAI instance for upgrade testing.
+  * Any other customer choice + one RHOAI sandbox instance to test RHOAI updates.
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken for the RHOAI instances list and their purpose each.
+
+| Justification
+| * Red Hat recommends always having a sandbox RHOAI instance for testing RHOAI upgrade before applying major product updates in {customer} production cluster(s).
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Different host OpenShift clusters shall be identified to host the various RHOAI instances.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.RHOAI OpenShift clusters
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| RHOAI host OpenShift clusters
+
+| Architectural Question
+| Which OpenShift clusters will be used to host RHOAI instances?
+// State the to-be decision as a question
+
+| Issue or Problem
+| {Customer} must determine which OpenShift clusters will be used to host RHOAI instances.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| RHOAI instances have already been defined
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Existing clusters are used to run RHOAI instances.
+  * Additional clusters will be created to run RHOAI instances.
+  * A mix of existing and new additional clusters are used to run RHOAI instances.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken for the RHOAI instances list and their purpose each.
+
+| Justification
+| * A cluster cannot have more than one RHOAI instance installed at the same time.
+  * Open Data Hub cannot be installed also in the same cluster as RHOAI.
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Installation and configuration of additional OpenShift clusters could be required.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.RHOAI OpenShift solution
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| RHOAI OpenShift solution
+
+| Architectural Question
+| Which OpenShift solutions will be used for Openshift cluster hosting RHOAI instances?
+// State the to-be decision as a question
+
+| Issue or Problem
+| {Customer} must determine is using a self-managed or managed OpenShift cluster.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| OpenShift clusters list has already been defined
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * OpenShift Container Platform.
+  * ROSA classic.
+  * ROSA HCP.
+  * Any combination of above.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken for the RHOAI instances list and their purpose each.
+
+| Justification
+| * {customer} requires / don't want to manage OpenShift cluster.
+  * Some environment will use OpenShift managed cluster some other can only use self-managed cluster.
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Installation process different between OCP et managed clusters (ex: ROSA) solutions.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.RHOAI Disconnected / connected environment
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Connected / Disconnected environment
+
+| Architectural Question
+| Will RHOAI have access to the Internet (directly or through proxy)?
+// State the to-be decision as a question
+
+| Issue or Problem
+| RHOAI needs to download images in order to work.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * RHOAI will be connected to the Internet directly or through a proxy.
+  * RHOAI will be installed in a disconnected environment without any Internet access.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken for the RHOAI instances list and their purpose each.
+
+| Justification
+| * {Customer} environment and internal policies allow / don't allow Internet connectivity.
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * A mirror registry is required if RHOAI is installed in a disconnected environment. All RHOAI images need to be mirrored.
+  * For a disconnected environment an Internet connected host in an internet connected environment is required to prepare the disconnected environment.
+  * If it is planned to use NVIDIA GPUs, the NVIDIA GPU Operator image needs to be mirrored.
+  * If it is planned to use the distributed workloads component, the Ray cluster image needs to be mirrored.
+  * If it is planned to use the demo notebooks for distributed workloads, the codeflare-sdk repository needs to be cloned.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Internet firewall
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Internet firewall
+
+| Architectural Question
+| Will outbound traffic to the Internet be restricted by a firewall (in a connected environment or in an environment with Internet access to prepare a disconnected environment)?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Some domains must be accessible during the installation of RHOAI.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Firewall allows any outbound traffic or no firewall is installed.
+  * Firewall allows only configured whitelisted domains.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken for the RHOAI instances list and their purpose each.
+
+| Justification
+| * {Customer} need / doesn't need to configure firewall to access particular Internet domains.
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Outbound firewall rules need to be configured to allow traffic (in a connected environment or in an environment with Internet access to prepare a disconnected environment) if firewall whitelisting is enabled.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Hosts connection to API Server
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Hosts having connection to OpenShift API server
+
+| Architectural Question
+| From which hosts will you connect to the OpenShift API server.?
+// State the to-be decision as a question
+
+| Issue or Problem
+| OpenShift API server access is required to install OpenShift.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * All connection to OpenShift API server will be through a bastion/jump server.
+  * Workstation will be able to connect to the OpenShift API server directly without a jump server.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken for the RHOAI instances list and their purpose each.
+
+| Justification
+| {Customer} direct connectivity to OpenShift API Server from workstation is / is not allowed.
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * A bastion/jump host must be provisioned.
+  * Firewall rules should be set allow traffic to both port 443 and 6443
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Mirror registry
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Mirror registry (disconnected environment)
+
+| Architectural Question
+| What mirror registry will be used?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Mirroring container images to a private container registry is required to make RHOAI running in a disconnected environment.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Disconnected environment
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Existing HA corporate registry solution can be reused: Quay, Artifactory, Nexus, Harbor, etc.
+  * mirror registry for Red Hat OpenShift can be used (not HA).
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken for the RHOAI instances list and their purpose each.
+
+| Justification
+| If SLA does not require HA, mirror registry for Red Hat OpenShift can be installed if no corporate registry solution is existing.
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Mirror registry should be installed and configured.
+  * Images repositories should be created in the mirror registry to host the images.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Internet connected host
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Internet connected host for preparing disconnected environment.
+
+| Architectural Question
+| Will the internet connected host for preparing a disconnected environment be able to connect to the mirrored registry?
+// State the to-be decision as a question
+
+| Issue or Problem
+| An internet connected host is required to retrieve the images from the Internet.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Disconnected environment
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * The internet connected host will have access to the mirrored registry.
+  * The internet connected host will not have access to the mirrored registry.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| The customer network environment allow / does not allow the internet connected host to have access to the mirrored registry.
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * If the internet connected host can not access to the mirrored registry, the mirrored images will be transferred through a device to the host having connection to OpenShift API server.
+  * If the internet connected host can access to the mirrored registry, this host could be the same as the host having connection to OpenShift API server.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Object Storage
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Object Storage
+
+| Architectural Question
+| Do you have a S3 storage solution in place?
+// State the to-be decision as a question
+
+| Issue or Problem
+| S3 is strongly advised to store pipeline artifacts.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * S3 solution will be used.
+  * S3 solution will not be used.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| S3 is available / not available at {customer}.
+
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * If no S3 solution is available, {customer} must configure its own storage solution for use with pipelines.
+  * If an S3 solution is available, networking access from OpenShift clusters should be configured.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Default storage class for RHOAI components
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Default storage class for RHOAI components
+
+| Architectural Question
+| Which default storage class will you use for RHOAI components?
+// State the to-be decision as a question
+
+| Issue or Problem
+| A default storage class is required to make RHOAI working. PV dynamic provisioning is automatically used when running some RHOAI components. Ex: workbenches.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * A default storage class is already configured in the OpenShift host clusters and will be used for RHOAI.
+  * A default storage class is already configured but will be changed to make RHOAI running.
+  * No default storage class is already configured and a default one will be configured to make RHOAI running.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| The current default storage is / is not configured.
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Configuration of default storage class could be required.
+  * Installation and configuration of a new storage provider in OpenShift could also be required (ex: ODF).
+  * It is not an issue to change the default storage class as long as the default storage class is always configured.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Identity provider
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Identity provider
+
+| Architectural Question
+| Which OpenShift identity provider will be used to authenticate to RHOAI?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Using a configured identity provider is mandatory to access to RHOAI as an admin or a single user.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Any OpenShift supported identity providers.
+  * A default storage class is already configured but will be changed to make RHOAI running.
+  * No default storage class is already configured and a default one will be configured to make RHOAI running.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| {customer} has already some existing identifies provider.
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Configuration of additional identity providers could be required.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Large model serving
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Large model serving
+
+| Architectural Question
+| Will you use large model serving?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Large model serving requires OpenShift Service Mesh and OpenShift Serverless.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Large model serving will be used.
+  * Large model serving will not be used.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| {customer} want / don't want to use large model serving.
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| If large model serving will be used, OpenShift Service Mesh and OpenShift Serverless will need to be installed.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data Scientist Leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Large model authorization provider
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Authorization provider for Large model serving
+
+| Architectural Question
+| Will you use an authorization provider for large model serving?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Large model serving authentication requires Red Hat Authorino operator installed.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Authorization provider will be used.
+  * Authorization provider will not be used.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| {customer} want / don't want to use large model authorization.
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| If authorization provider will be used, Red Hat Authorino operator will need to be installed.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data Scientist Leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.GPU HPU Support
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| GPU / HPU Support
+
+| Architectural Question
+| Will the model running on RHOAI use GPUs / HPUs?
+// State the to-be decision as a question
+
+| Issue or Problem
+| With accelerators, it is possible to scale your work, reduce latency, and increase productivity.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * GPUs / HPUs will be used.
+  * GPUs / HPUs will not be used.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| {customer} want / don't want to use GPUs / HPUs.
+// Why the decision was made
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Nodes with GPUs / HPUs should be installed and configured
+  * GPU / HPU Operators (Nvidia, Habana) must be installed in OpenShift cluster
+  * GPU / HPU Support should be enabled by the IT Operations administrator
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data Scientist Leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Certificate management
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Certificate management
+
+| Architectural Question
+| Who will manage the CA certificates management for RHOAI?
+// State the to-be decision as a question
+
+| Issue or Problem
+| RHOAI requires CA certificates configuration in order to interact correctly with self-signed components.
+  Certificate management can be managed at OpenShift cluster scope using cluster CA bundle, at RHOAI scope using custom CA bundle, at Pipeline scope using custom CA bundle.
+  This choice will impact who is able to configure the CA certificate for RHOAI needs.
+  If OpenShift cluster CA bundle is only used, platform admin action will be required every time a CA certificate needs to be updated.
+  If custom CA bundles are used, OpenShift AI admin will be autonomous to configure the CA certificate they need. Note MLOps admin can still benefit from using the cluster CA bundle configured by the platform avoiding duplicate CA certificate entries.
+
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Only OpenShift cluster CA bundle will be used.
+  * OpenShift cluster CA bundle and custom CA bundle will be used.
+  * Only custom CA bundles will be used.
+  * Pipeline custom CA will be used additionally to any combination above.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| {customer} need / don't need to segregate the responsibility for configuring CA certificates bundles.
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * DSCInitialization CR admin access should be granted to the OpenShift AI administrator.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.PVC backup
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| PVC backup
+
+| Architectural Question
+| How the PVC backup will be performed for the user data.
+// State the to-be decision as a question
+
+| Issue or Problem
+| Workbenches persist the data on PVC. 
+  Backing up the data is particularly important before deleting a user and before uninstalling OpenShift AI, as all PVCs are deleted when OpenShift AI is uninstalled.
+
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * ODF backup/restore.
+  * OADP.
+  * Any storage vendor which support CSI backup.
+
+//HINT: if not alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| {customer} has already / needs to install a storage solution.
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Installing a PV backup solution.
+  * Configure ODF backup / restore if using ODF.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Usage data collection
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Usage data collection
+
+| Architectural Question
+| Will the OpenShift AI admin allow Red Hat to collect anonymous data about OpenShift AI usage?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Red Hat OpenShift AI administrators can choose whether to allow Red Hat to anonymized collect data about OpenShift AI usage in their cluster in order to help Red Hat support to troubleshoot any technical issue.
+
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Red Hat may collect usage data.
+  * Red Hat may not collect usage data.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+| Justification
+| {customer} internal policies allow / don't allow Red Hat to collect any anonymized usage data for support purpose.
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * Enable/disable data collection.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+=== RHOAI third party solutions
+
+.Red Hat partner applications
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Red Hat partner applications
+
+| Architectural Question
+| Which Red Hat partner applications will be integrated with RHOAI?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Red Hat OpenShift AI provides several optional AI/ML technology partner offerings that could work together with RHOAI.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Anaconda
+  * IBM Watson Studio
+  * Intel OpenVINO
+  * AI Analytics Toolkit
+  * NVIDIA AI Enterprise
+  * Starburst
+  * None
+
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {Customer} has chosen to integrate / not integrate Red Hat partner applications.
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Implications
+| * These partner applications must be installed in OpenShift clusters where RHOAI is running and configured by the OpenShift AI admin to make it accessible for OpenShift AI users.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data Scientist Leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Data sources
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Data sources
+
+| Architectural Question
+| Which data sources are required for data scientists?
+// State the to-be decision as a question
+
+| Issue or Problem
+| An approach to connect to data sources is required.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Allowlist data sources
+  * Migrate data sources to OpenShift
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {Customer} has chosen to integrate / not integrate data sources.
+
+| Implications
+| * Network connection and service accounts should be configured for each data source.
+  * Service accounts will be created for each data source based on the least privileged principal for the RHOAI pipelines.
+  * Service accounts to be stored in a secret management system.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data Scientist Leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+=== RHOAI notebooks
+
+.Notebook images for data scientists
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Notebook images for data scientists
+
+| Architectural Question
+| Will Red Hat provided notebook images be used by the datascientists?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Red Hat OpenShift AI contains Jupyter notebook images optimized with industry-leading tools and libraries required for the data science work.
+  To provide a consistent, stable platform for {customer} model development, all notebook images contain the same version of Python.
+  Notebook images available on Red Hat OpenShift AI are pre-built and ready for {customer}} to use immediately after OpenShift AI is installed or upgraded.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Red Hat provided notebooks image will be used.
+  * Open Data Hub community images will be used.
+  * Customized images notebooks image will be used.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| Red Hat only supports images provided out-of-the box in RHOAI.
+
+| Implications
+| * Customized images should be built based on Red Hat already provided images.
+  * Pipelines needs to be created to build such images.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data Scientist Leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Required Python packages
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Required Python packages
+
+| Architectural Question
+| What Python packages not provided by RHOAI are needed for Data Scientists?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Data scientist can install Python packages that are not part of the default notebook server image.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Only Python packages provided on notebook server images will be provided.
+  * Data scientists can install the packages they want in their notebook server.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| Data scientists need to need retrieve packages from Python repositories.
+
+| Implications
+| PyPI repositories should be accessible to install these packages.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data Scientist Leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Custom notebook location
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Custom notebook location
+
+| Architectural Question
+| Where custom notebook server images will be located?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Custom notebook server images need to exist in an image registry and be accessible.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Custom notebook server images are required
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Custom notebook server images will be available on any corporate existing registry.
+  * OpenShift internal image registry will be used to host notebook server images.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} can / cannot reuse its corporate registry to host notebook server images.
+
+| Implications
+| If a corporate registry is used for hosting notebook server images, image repositories should be created for the images.
+  If OpenShift internal image registry is used, the project / namespace should be created for the matching images repos.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Notebook file location
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Notebook file location
+
+| Architectural Question
+| Where will the notebook files be stored?
+// State the to-be decision as a question
+
+| Issue or Problem
+| Red Hat OpenShift AI allows loading an existing notebook from local storage or from a Git repository into JupyterLab to continue work.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Existing notebook will be loaded from local storage.
+  * Existing notebook will be loaded from Git repo.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} has / has not Git repositories.
+
+| Implications
+| If using Git, a git repo needs to be created for data scientist notebook files.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientists leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Notebook repositories
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Notebook repositories
+
+| Architectural Question
+| What repositories will be created for data scientists and MLOps engineers to collaborate?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| Datascientists and MLOps engineers will collaborating on notebooks using Git (push/pull changes to/from repositories).
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Notebook files are stored in Git.
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * MLOps repositories (R/W MLOps engineers).
+  * Custom images repositories (R/W OpenShift AI admin).
+  * Data science code repositories (R/W Data scientists and MLOps engineers).
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} can create Git repositories for the different roles.
+
+| Implications
+| Permissions to pull / push files should be granted to the data scientists and MLOps engineers accordingly.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Git notebook repositories branching strategy
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Git notebook repositories branching strategy
+
+| Architectural Question
+| Which based development strategy will be used for branching?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| An approach for notebook git branching strategy is required.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Notebook files are stored in Git.
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Trunk based development approach.
+  * Gitflow strategy.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} organization allows / disallows gitflow strategy.
+
+| Implications
+| Permissions to pull / push files should be granted to the datascientist accordingly in the repositories.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+=== RHOAI data science projects
+
+.Data science projects
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Data science projects
+
+| Architectural Question
+| What is the list of data science projects that will be managed in RHOAI?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| Creating a project helps the data scientist to organize their work in one place.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A.
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Each data scientist will its own project.
+  * Data scientist team will have shared project.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} have / does not have data scientists sharing same projects.
+
+| Implications
+| OpenShift AI admin will have to configure the RBAC for every project created in RHOAI.
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Workbenches
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Workbenches
+
+| Architectural Question
+| What is the list of workbenches with their deployment size that will be created in the data science projects?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| To examine and work with models in an isolated area, data scientists can create workbenches.
+  They can use these workbenches to create a Jupyter notebook from an existing notebook container image to access its resources and properties.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A.
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * One workbench per project.
+  * More than one workbench per project.
+  Workbench deployment size can be Small, Medium or Large
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} can / cannot afford more than one workbench per project.
+
+| Implications
+| * This has a high impact in the OpenShift cluster sizing. A workbench consumes CPU and memory.
+  * Default workbench sizing can be configured by the OpenShift AI admin to restrict the ability to run workbench consuming more cluster resources.
+  * Defining project quota should also be considered.
+  * Needed workbench notebook container images have to be defined
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.Workbenches on Intel hardware
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Workbenches on Intel hardware
+
+| Architectural Question
+| Will the Intel optimized workbenches be used?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| The Intel AI Tools (formerly Intel oneAPI AI Analytics Toolkit) integration has been enhanced with three new workbench images, which include optimizations for popular frameworks and libraries such as PyTorch and TensorFlow.
+These optimizations provide improved performance on Intel hardware, helping data scientists accelerate end-to-end data science and analytics pipelines on Intel architecture.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Intel GPU is used.
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Intel optimized workbenches are used.
+  * Intel optimized workbenches are not used.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} need / does not need improved performance on Intel hardware.
+
+| Implications
+| * Intel AI Tools Operator must be installed on the cluster to be able to select the new workbench images.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.code-server workbenches
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| code-server workbenches
+
+| Architectural Question
+| Will code-server workbenches be used?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| With the code-server workbench image, you can customize your workbench environment by using a variety of extensions to add new languages, themes, debuggers, and connect to additional services. You can also enhance the efficiency of your data science work with syntax highlighting, auto-indentation, and bracket matching.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A.
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * code-server workbenches are used.
+  * code-server workbenches are not used.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} need / does not need code-server workbenches.
+
+| Implications
+| * code-server workbenches are in Tech Preview mode meaning they are not supported for production by Red Hat Support
+ * Elyra-based pipelines are not available with the code-server workbench image.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Data connection
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Data connection
+
+| Architectural Question
+| What is the list of data connections that will be created in the data science projects?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| To examine and work with models in an isolated area, data scientists can create workbenches.
+  When data scientists want to work with very large data sets, they can store their data in an S3-compatible object storage bucket, so that they do not fill up their local storage.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| S3 storage is used.
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * One data connection per project.
+  * More than data connections per project.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} datascientists will / won't deal with more than one data connection per project.
+
+| Implications
+| S3 buckets need to be created and configured by the IT Operations admin
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.Cluster storage
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Cluster storage
+
+| Architectural Question
+| What is the list of cluster storage and their size that will be created in the data science projects?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| For data science projects that require data to be retained, data scientists can add cluster storage to their project.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * One cluster storage per workbench with the default value: 20 GB.
+  * Cluster storages with other values between 1 GB and 16 TB.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} datascientists will use / won't use the default cluster storage per workbench.
+
+| Implications
+| Cluster storage need to be sized and configured by the IT Operations admin
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+=== RHOAI pipelines
+
+.Pipeline database
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Pipeline database
+
+| Architectural Question
+| Which supported database will be used for pipeline data?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| Pipeline data location must be configured.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Use default MariaDB database stored on your cluster.
+  * Connect to external MySQL 5.x database.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} has / has not the ability to configure an external database.
+
+| Implications
+| Configuring MySQL 5.x external database.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.Data Science Pipelines
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Data Science Pipelines
+
+| Architectural Question
+| Will DSP be used?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| From OpenShift AI version 2.9, data science pipelines are based on KubeFlow Pipelines (KFP) version 2.0.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * DSP will be used.
+  * DSP will not be used.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} has / has not need to use DSP.
+
+| Implications
+| If there is an existing installation of Argo Workflows that is not installed by DSP on the cluster, DSP will be disabled after OpenShift AI 2.9 or later installation.
+  To enable data science pipelines, the separate installation of Argo Workflows from your cluster must be removed. Data Science Pipelines will be enabled automatically.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.Pipelines in JupyterLab
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Pipelines in JupyterLab
+
+| Architectural Question
+| Will pipelines in JupyterLab be used?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| {customer} can access the Elyra extension within JupyterLab when it creates the most recent version of one of the following notebook images:
+
+  * Standard Data Science
+  * PyTorch
+  * TensorFlow
+  * TrustyAI
+  * HabanaAI
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Pipelines in JupyterLab will be used
+  * Pipelines in JupyterLab will not be used
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} has / has the will to use JupyterLab pipelines.
+
+| Implications
+| Not all notebook images are eligible for Elyra pipeline usage. In such cases DSP 2.0 can be used instead.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+=== RHOAI distributed workloads
+
+.Distributed workloads
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Distributed workloads
+
+| Architectural Question
+| Will distributed workloads be used?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| Data scientists can use the distributed workloads feature to queue, scale, and manage the resources required to run data science workloads across multiple nodes in an OpenShift cluster simultaneously.
+  Typically, data science workloads include several types of artificial intelligence (AI) workloads, including machine learning (ML) and Python workloads.
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Distributed workloads will be used.
+  * Distributed workloads will not be used.
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} has / has the need to use distributed workloads.
+
+| Implications
+| * Additional resources are needed (1.6 vCPU and 2 GiB memory) on every node to deploy the distributed workloads infrastructure.
+  * A Ray cluster image is required
+  * CodeFlare and KubeRay Operators need to be deployed
+  * Self-signed certificates need potentially to be configured
+  To enable data science pipelines, the separate installation of Argo Workflows from your cluster must be removed. Data Science Pipelines will be enabled automatically.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+!===
+
+|===
+
+.Quota management for distributed workloads
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Quota management for distributed workloads
+
+| Architectural Question
+| What resources quotas will be assigned for distributed workloads?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| Quotas need to be configured for distributed workloads on a cluster, so that data scientists can share resources between several data science projects.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Distributed workload is used
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| X CPU, X memory, X GPU will allocated for distributed workloads
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} can afford the required capacity for distributed workload.
+
+| Implications
+| A single cluster queue will be configured with a resource flavor. NOTE: OpenShift AI currently supports only a single cluster queue per cluster (that is, homogenous clusters).
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.OpenShift OAuth for Ray Dashboard
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| OpenShift OAuth for Ray Dashboard
+
+| Architectural Question
+| Will the users authenticate to the Ray Dashboard using OpenShit OAuth?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| Users need to authenticate when accessing the Ray Dashboard through the browser.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Distributed workload is used
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * OpenShift OAuth is used
+  * Another way is used for authentication
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} requires / does not to use an authentication method to access Ray Dashboard.
+
+| Implications
+| * CodeFlare Operator should be configured accordingly.
+ * If using another way, an authorization header as part of their request must be configured.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+.Distributed workloads monitoring
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Distributed workloads monitoring
+
+| Architectural Question
+| Will the users monitor the distributed workloads?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| In OpenShift AI, users can view project metrics for distributed workloads, and view the status of all distributed workloads in the selected project.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Distributed workload is used
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Distributed workloads will be monitored
+  * Distributed workloads won’t be monitored
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} requires workload monitoring.
+
+| Implications
+| OpenShift user workload monitoring needs to be enabled.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+=== RHOAI model serving
+
+.Model-serving runtime for the single-model serving platform
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Model-serving runtime for the single-model serving platform
+
+| Architectural Question
+| What model serving runtime will be used to run models in the single model serving platform?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| When the single-model serving platform is enabled, data scientists and MLOps engineers can enable a pre-installed or custom model-serving runtime and start to deploy models on the platform.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| KServe is installed
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Caikit TGIS ServingRuntime for KServe
+  * OpenVINO Model Server
+  * TGIS Standalone ServingRuntime for KServe
+  * vLLM ServingRuntime for KServe
+  * Custom model-serving runtime
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} has defined the model serving runtime to use.
+
+| Implications
+| vLLM requires both Node Feature Discovery operator installed and GPU support configured.
+  Custom model-serving runtimes are not supported by Red Hat.
+  They can be used if none of the out-of-the box provided runtime fits data scientist and MLOps needs.
+  This requires OpenShift AI admin to add the runtime into the serving platform.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.Single-model serving platform monitoring
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Single-model serving platform monitoring
+
+| Architectural Question
+| Will the users monitor the single-model serving platform?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| In OpenShift AI, users can view project metrics for single model serving platform.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Single-model serving platform is enabled
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Single-model serving platform will be monitored
+  * Single-model serving won’t be monitored
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} needs / does not need monitoring single-model serving platform.
+
+| Implications
+| OpenShift user workload monitoring needs to be enabled.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.Model-serving runtime for the multi-model serving platform
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Model-serving runtime for the multi-model serving platform
+
+| Architectural Question
+| What model serving runtime will be used to run models in the multi-model serving platform?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| When the multi-model serving platform is enabled, data scientists and MLOps engineers can enable a pre-installed or custom model-serving runtime and start to deploy models on the platform.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| N/A
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * OpenVINO Model Server runtime
+  * Custom model-serving runtime
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} has defined the model serving runtime to use.
+
+| Implications
+| Custom model-serving runtimes are not supported by Red Hat.
+  They can be used if none of the out-of-the box provided runtime fits data scientist and MLOps needs.
+  This requires OpenShift AI admin to add the runtime into the serving platform.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! OpenShift AI administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
+
+.Multi-model serving platform monitoring
+[cols="1h,3a"]
+|===
+
+| Id
+| RHOAI-{counter:index}
+// To unambiguously identifies the decision we use the following code: RHOAI-xx.”
+
+| Subject Area
+| Multi-model serving platform monitoring
+
+| Architectural Question
+| Will the users monitor the multi-model serving platform?
+
+// State the to-be decision as a question
+
+| Issue or Problem
+| In OpenShift AI, users can view project metrics for multi-model serving platform.
+
+//Context for why the architectural question is being asked.
+
+| Assumptions
+| Multi-model serving platform is enabled
+// What is believed to be true about the context of the problem, constraints on the solution, and so on.
+
+| Alternatives
+| * Multi-model serving platform will be monitored
+  * Multi-model serving won’t be monitored
+
+//HINT: if no alternatives were explored then this isn't an architectural decision.
+
+| Decision
+| #TODO#
+// The decision taken.
+
+//
+//HINT: list the policies or principles that affected the decision.
+
+| Justification
+| {customer} needs / does not need monitoring single-model serving platform.
+
+| Implications
+| OpenShift user workload monitoring needs to be enabled.
+
+// The consequences and impacts of the decision taken or architectural option chosen on other elements or aspects of the solution.
+
+| Agreeing Parties
+| [cols="1,1", options="header"]
+// Key stakeholders and approvers documented as agreeing
+!===
+! Person
+! Representing
+
+! #TODO#
+// Agreeing person name
+! Enterprise Architect
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! Data scientist leader
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! MLOps engineer
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+
+! #TODO#
+// Agreeing person name
+! IT Operations administrator
+// Team or group that person is representing and agreeing on behalf of, ex security, operations
+!===
+
+|===
