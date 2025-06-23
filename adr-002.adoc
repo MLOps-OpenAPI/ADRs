@@ -1,0 +1,60 @@
+[id=ADR-001,title='Core-First Schema with Industry-Specific Templates']
+[cols="1h,3a"]
+|===
+
+| ID
+| ADR-002
+
+| Title
+| Core-First Schema with Industry-Specific Templates
+
+| Status
+| ACCEPTED
+
+| Subject Area(s)
+| Schema Design, Extensibility
+
+| Question
+| How should we structure the Data Card and Model Card standards to support both general and domain-specific use cases?
+
+| Issue or Problem
+| Embedding industry specifics into the core schema hinders reuse, increases maintenance overhead, and causes ripple effects across all consumers.
+
+| Assumptions
+| Most consumers need a generic, industry-agnostic schema; regulated domains require additional guardrails; JSON Schema supports referencing and extending definitions as industry-reusable templates.
+
+| Alternatives
+| 1. Monolithic, industry-specific schemas (one per domain); 
+  2. Core schema with separate templates layered on top;
+  3. Core-only schema (no official templates; consumers build their own extensions).
+
+| Decision
+| Alternative 2 is chosen: maintain a lean core schema and provide optional, domain-specific templates.
+
+| Justification
+| Single source of truth reduces duplication and maintenance effort; templates evolve independently, limiting ripple effects; flexible consumption for general vs specialized domains; aligns with JSON Schema best practices.
+
+| Agreeing Parties
+
+| [cols="1,1", options="header"]
+
+!===
+! Person
+! Representing
+
+! Hunter Gerlach
+! Core Aether Team Member
+
+! Brandon Corfman
+! Core Aether Team Member
+!===
+
+| Related Policies
+| None
+
+| Related Principles
+| None
+
+| Related Decisions
+| None
+|===
